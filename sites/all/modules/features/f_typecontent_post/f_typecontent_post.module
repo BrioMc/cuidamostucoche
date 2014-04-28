@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the f_typecontent_post feature.
+ */
+
+include_once 'f_typecontent_post.features.inc';
