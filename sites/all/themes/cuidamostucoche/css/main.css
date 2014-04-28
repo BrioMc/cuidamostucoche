@@ -1,22 +1,33 @@
 div {
   padding: 0;
   margin: 0; }
-body{
-	background-color: #e0e0e0;
-}
+
+body {
+  background-color: #e0e0e0; }
+
 #page-wrapper {
   background-image: url(../images/bg-body-header.png), url(../images/bg-body-footer.png);
   background-position: top left, bottom left;
   background-repeat: repeat-x; }
 
 #page {
-	padding-top:32px; 
+  padding-top: 32px;
   margin: auto; }
- #branding{
- 	height: 128px;
- }
 
+#branding {
+  height: 128px;
+  float: left; }
 
- header{
- 	height: 128px;
- }
+ul.menu li {
+  list-style: none;
+  display: inline-block;
+  font-family: "ubunturegular", sans-serif;
+  font-weight: 400;
+  font-size: 1.45em;
+  position: relative; }
+
+ul.menu li a {
+  padding-right: 27px; }
+
+ul.menu {
+  float: right; }
