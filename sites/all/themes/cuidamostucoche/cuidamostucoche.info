@@ -13,8 +13,7 @@
 ;----------// Stylesheets
 
   ; See each stylesheet for extensive documentation and help.
-  stylesheets[screen][] = css/global.base.css
-  stylesheets[screen][] = css/global.styles.css
+  
   stylesheets[all][] = css/main.css
 
   ; Print - uncomment to load basic print styles.

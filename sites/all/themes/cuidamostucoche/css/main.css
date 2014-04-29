@@ -1,8 +1,9 @@
-div {
+div, body {
   padding: 0;
   margin: 0; }
 
 body {
+  width: 1903px;
   background-color: #e0e0e0; }
 
 #page-wrapper {
@@ -12,22 +13,38 @@ body {
 
 #page {
   padding-top: 32px;
+  padding-left: 49px;
+  padding-right: 40px;
   margin: auto; }
 
 #branding {
   height: 128px;
   float: left; }
 
-ul.menu li {
-  list-style: none;
-  display: inline-block;
-  font-family: "ubunturegular", sans-serif;
-  font-weight: 400;
-  font-size: 1.45em;
-  position: relative; }
+#logo {
+  margin-top: 21px; }
 
-ul.menu li a {
-  padding-right: 27px; }
-
-ul.menu {
+.mainmenu ul.menu {
+  margin: 69px 12px 0 0;
   float: right; }
+  .mainmenu ul.menu li {
+    list-style: none;
+    padding: 0 0 0 0;
+    display: inline-block;
+    font-family: "ubunturegular", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    position: relative; }
+    .mainmenu ul.menu li a {
+      list-style: none outside none;
+      padding: 0 0 0 1.333em;
+      line-height: 2.666em;
+      padding-left: 12px;
+      vertical-align: baseline; }
+    .mainmenu ul.menu li a:link {
+      text-decoration: none;
+      color: black; }
+    .mainmenu ul.menu li a:visited {
+      color: black; }
+    .mainmenu ul.menu li a:hover {
+      color: #d61e02; }
