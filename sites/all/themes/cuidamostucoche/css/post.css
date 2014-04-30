@@ -1,0 +1,38 @@
+.node-title a:link {
+  color: #d61e02;
+  text-decoration: none;
+  font-weight: bold; }
+.node-title a:hover {
+  color: black; }
+
+.author-datetime a, .author-datetime time {
+  color: #d61e02;
+  text-decoration: none;
+  font-weight: bold; }
+.author-datetime a:hover {
+  color: black; }
+
+input[type=submit] {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.7px;
+  font-size: 12px;
+  font-weight: bold;
+  background: #d61e02;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d61e02), to(#af1e2d));
+  background: -moz-linear-gradient(-90deg, #d61e02, #af1e2d);
+  background: -o-linear-gradient(-90deg, #d61e02 0%, #af1e2d 100%);
+  background: -ms-linear-gradient(-90deg, #d61e02 0%, #af1e2d 100%);
+  background: linear-gradient(-90deg, #d61e02 0%, #af1e2d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D61E02, endColorstr=#AF1E2D);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D61E02, endColorstr=#AF1E2D);
+  border: 1px solid #d61e02;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  text-shadow: black 0 1px 0;
+  -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+  -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+  color: #efefef;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer; }

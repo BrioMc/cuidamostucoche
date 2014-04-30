@@ -1,6 +1,10 @@
-div, body {
+div, body, h1, img, p, article, aside, nav, section {
   padding: 0;
   margin: 0; }
+
+h1, h2, h3, h4 {
+  font-family: "ubuntubold", sans-serif;
+  letter-spacing: 1px; }
 
 body {
   width: 1903px;
@@ -18,7 +22,9 @@ body {
   margin: auto; }
 
 #columns {
-  margin-top: 25px; }
+  margin-top: 45px; }
+  #columns .region-inner {
+    margin: 15px; }
 
 #main-content {
   width: 655px;
@@ -28,8 +34,7 @@ body {
 .sidebar {
   width: 280px;
   border-radius: 5px;
-  background-color: white;
-  margin-top: 20px; }
+  background-color: white; }
 
 #branding {
   height: 128px;
@@ -38,11 +43,15 @@ body {
 #logo {
   margin-top: 21px; }
 
+.view-content {
+  padding: 15px; }
+
 .mainmenu ul.menu {
   margin: 69px 12px 0 0;
   float: right; }
   .mainmenu ul.menu li {
     list-style: none;
+    letter-spacing: 1px;
     padding: 0 0 0 0;
     display: inline-block;
     font-family: "ubunturegular", sans-serif;
@@ -55,10 +64,35 @@ body {
       line-height: 2.666em;
       padding-left: 12px;
       vertical-align: baseline; }
-    .mainmenu ul.menu li a:link {
-      text-decoration: none;
-      color: black; }
-    .mainmenu ul.menu li a:visited {
-      color: black; }
-    .mainmenu ul.menu li a:hover {
-      color: #d61e02; }
+      .mainmenu ul.menu li a:link {
+        text-decoration: none;
+        color: black; }
+      .mainmenu ul.menu li a:visited {
+        color: black; }
+  .mainmenu ul.menu liz a:hover {
+    color: #d61e02; }
+
+input[type=submit] {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.7px;
+  font-size: 12px;
+  font-weight: bold;
+  background: #d61e02;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d61e02), to(#af1e2d));
+  background: -moz-linear-gradient(-90deg, #d61e02, #af1e2d);
+  background: -o-linear-gradient(-90deg, #d61e02 0%, #af1e2d 100%);
+  background: -ms-linear-gradient(-90deg, #d61e02 0%, #af1e2d 100%);
+  background: linear-gradient(-90deg, #d61e02 0%, #af1e2d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D61E02, endColorstr=#AF1E2D);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D61E02, endColorstr=#AF1E2D);
+  border: 1px solid #d61e02;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  text-shadow: black 0 1px 0;
+  -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+  -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+  color: #efefef;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer; }

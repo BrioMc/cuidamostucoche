@@ -1,14 +1,9 @@
 /* Gutters are not currently overridden in theme settings, but may be in theme CSS */
 
-/* smalltouch_landscape one_col_vert */
+/* smalltouch_landscape one_col_stack */
 @media only screen and (min-width:321px) and (max-width:580px) {
 .container {width:100%}
-.two-sidebars .content-inner,.one-sidebar .content-inner,.region-sidebar-first,.region-sidebar-second {margin-left: 0; margin-right: 0}
-.region-sidebar-first {width: 50%}
-.region-sidebar-second {width: 50%}
-.one-sidebar .sidebar {width: 100%}
-.region-sidebar-first,.region-sidebar-second {overflow: hidden; margin-top: 20px; float: left; clear: none}
-.region-sidebar-first.block,.region-sidebar-second .block {width: 100%}
+div#content-column,div.content-inner,.sidebar-first div.content-inner,.sidebar-second div.content-inner,.two-sidebars div.content-inner,div.sidebar,.sidebar-first div.sidebar,.sidebar-second div.sidebar,.two-sidebars div.sidebar,div.region .block {float:none;clear:both;display:block;width:100%;margin-left:0;margin-right:0}
 .at-panel .region {display:inline;float:left}.two-brick > .panel-row > .region,.two-66-33 > .region,.two-50 > .region,.two-33-66 > .region,.three-inset-right > .inset-wrapper,.three-inset-right > .inset-wrapper > .region,.three-inset-right > .region-three-inset-right-sidebar,.three-inset-left > .inset-wrapper,.three-inset-left > .inset-wrapper > .region,.three-inset-left > .region-three-inset-left-sidebar,.three-50-25-25 > .region,.three-3x33 > .region,.three-25-50-25 > .region,.three-25-25-50 > .region,.six-6x16 > .panel-row > .region,.six-6x16 > .panel-row ,.four-4x25 > .panel-row > .region,.four-4x25 > .panel-row,.five-5x20 > .panel-row > .region,.five-5x20 > .panel-row {float:none;display:block;width:100%;clear:both}
 }
 /* tablet_portrait two_sidebars_right_stack */

@@ -15,6 +15,7 @@
   ; See each stylesheet for extensive documentation and help.
   
   stylesheets[all][] = css/main.css
+  stylesheets[all][] = css/post.css
 
   ; Print - uncomment to load basic print styles.
   ; stylesheets[print][] = css/print.css
