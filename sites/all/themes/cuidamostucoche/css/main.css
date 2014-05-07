@@ -3,12 +3,16 @@ div, body, h1, img, p, article, aside, nav, section {
   margin: 0; }
 
 h1, h2, h3, h4 {
-  font-family: "ubuntubold", sans-serif;
+  font-family: ubuntubold, sans-serif;
   letter-spacing: 1px; }
 
 body {
   width: 1903px;
-  background-color: #e0e0e0; }
+  background-color: #e0e0e0;
+  font-size: 14px;
+  font-family: "source_sans_prolight", sans-serif;
+  text-rendering: optimizeLegibility;
+  color: #353535; }
 
 #page-wrapper {
   background-image: url(../images/bg-body-header.png), url(../images/bg-body-footer.png);
@@ -43,9 +47,6 @@ body {
 #logo {
   margin-top: 21px; }
 
-.view-content {
-  padding: 15px; }
-
 .mainmenu ul.menu {
   margin: 69px 12px 0 0;
   float: right; }
@@ -71,6 +72,84 @@ body {
         color: black; }
   .mainmenu ul.menu liz a:hover {
     color: #d61e02; }
+
+input[type=submit] {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.7px;
+  font-size: 12px;
+  font-weight: bold;
+  background: #d61e02;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d61e02), to(#af1e2d));
+  background: -moz-linear-gradient(-90deg, #d61e02, #af1e2d);
+  background: -o-linear-gradient(-90deg, #d61e02 0%, #af1e2d 100%);
+  background: -ms-linear-gradient(-90deg, #d61e02 0%, #af1e2d 100%);
+  background: linear-gradient(-90deg, #d61e02 0%, #af1e2d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D61E02, endColorstr=#AF1E2D);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D61E02, endColorstr=#AF1E2D);
+  border: 1px solid #d61e02;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  text-shadow: black 0 1px 0;
+  -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+  -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+  color: #efefef;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer; }
+
+/*---------------CSS POST--------------- */
+#main-content header {
+  padding-top: 15px;
+  margin: 0px 15px 15px 0px; }
+#main-content #content {
+  margin: 0px 15px 15px 15px;
+  padding-top: 15px; }
+#main-content img {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: auto; }
+
+.node-title, .views-field-title {
+  margin-top: 0px;
+  margin-bottom: 20px; }
+  .node-title a:link, .views-field-title a:link {
+    color: #d61e02;
+    text-decoration: none;
+    font-weight: bold; }
+  .node-title a:hover, .views-field-title a:hover {
+    color: black; }
+  .node-title a:visited, .views-field-title a:visited {
+    color: #d61e02; }
+
+.submitted {
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+
+.field-content a {
+  color: #d61e02;
+  text-decoration: none;
+  font-weight: bold; }
+
+.author-datetime a, .author-datetime time {
+  color: #d61e02;
+  text-decoration: none;
+  font-weight: bold; }
+.author-datetime a:hover {
+  color: black; }
+
+.node-post:after, .views-row:after {
+  height: 50px;
+  width: 100%;
+  content: url(../images/sombra.png);
+  visibility: visible; }
+
+#page-title {
+  margin-left: 15px;
+  color: #d61e02; }
 
 input[type=submit] {
   font-family: Arial, Helvetica, sans-serif;

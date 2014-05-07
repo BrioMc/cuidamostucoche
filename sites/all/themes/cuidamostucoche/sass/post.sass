@@ -1,10 +1,37 @@
-.node-title
+/*---------------CSS POST---------------*/
+#main-content
+  header
+    padding-top: 15px
+    margin: 0px 15px 15px 0px
+  #content
+    margin: 0px 15px 15px 15px
+    padding-top: 15px
+  img
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2)
+    width: 100%
+    height: auto  
+.node-title,.views-field-title
+  margin-top: 0px
+  margin-bottom: 20px
   a:link
     color: #d61e02
     text-decoration: none
     font-weight: bold
   a:hover
     color: #000
+  a:visited
+    color: #d61e02
+.submitted
+  font-weight: inherit
+  font-style: inherit
+  font-size: 100%
+  font-family: inherit
+  vertical-align: baseline
+.field-content
+  a
+    color: #d61e02
+    text-decoration: none
+    font-weight: bold
 .author-datetime
   a,time
     color: #d61e02
@@ -12,7 +39,15 @@
     font-weight: bold
   a:hover
     color: #000
-
+.node-post,.views-row   
+  &:after
+    height: 50px
+    width: 100%
+    content: url(../images/sombra.png)
+    visibility: visible
+#page-title
+  margin-left: 15px
+  color: #d61e02
 input[type=submit]
   font-family: Arial, Helvetica, sans-serif
   letter-spacing: 0.7px
