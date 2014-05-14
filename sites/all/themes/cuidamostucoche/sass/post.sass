@@ -5,12 +5,27 @@
     margin: 0px 15px 15px 0px
   #content
     margin: 0px 15px 15px 15px
-    padding-top: 15px
+    padding-top: 15px  
+.categoria
+  margin-top: 15px
+  .views-row
+    margin-bottom: 0px
+    &:after
+      height: 50px
+      width: 100%
+      content: none
+      visibility: visible
+      margin-bottom: 0px  
+.node-content,.field-content
+  margin-top: 0px
+  padding-top: 15px  
   img
+    margin-bottom: 15px
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2)
+    border-radius: 3px
     width: 100%
-    height: auto  
-.node-title,.views-field-title
+    height: auto
+.node-title,.views-field-title,.pager
   margin-top: 0px
   margin-bottom: 20px
   a:link
@@ -27,37 +42,48 @@
   font-size: 100%
   font-family: inherit
   vertical-align: baseline
-.field-content
-  a
-    color: #d61e02
-    text-decoration: none
-    font-weight: bold
-.author-datetime
+.author-datetime,.field-content
   a,time
     color: #d61e02
     text-decoration: none
     font-weight: bold
   a:hover
     color: #000
-.node-post,.views-row   
+.time
+  color: #d61e02
+  text-decoration: none
+  font-weight: bold  
+.node-post,.views-row
+  margin-bottom: 20px
   &:after
     height: 50px
     width: 100%
     content: url(../images/sombra.png)
     visibility: visible
+    margin-bottom: 20px
+.sharethis-wrapper   
+  margin-bottom: 15px
 #page-title
   margin-left: 15px
   color: #d61e02
+
 input[type=submit]
+  &:hover
+    color: white
+    font-size: 12px
+    font-weight: bold
+    background: #EA4856
+    background: -webkit-gradient(linear, left top, left bottom, from(#EA4856), to(#D61E02))
+    background: -moz-linear-gradient(-90deg, #EA4856, #D61E02)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EA4856, endColorstr=#D61E02)
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EA4856, endColorstr=#D61E02)
   font-family: Arial, Helvetica, sans-serif
+  padding: 6px 10px
   letter-spacing: 0.7px
   font-size: 12px
   font-weight: bold
+  line-height: 1.428571429
   background: #D61E02
-  background: -webkit-gradient(linear, left top, left bottom, from(#D61E02), to(#AF1E2D))
-  background: -moz-linear-gradient(-90deg, #D61E02, #AF1E2D)
-  background: -o-linear-gradient(-90deg, #D61E02 0%, #AF1E2D 100%)
-  background: -ms-linear-gradient(-90deg, #D61E02 0%, #AF1E2D 100%)
   background: linear-gradient(-90deg, #D61E02 0%, #AF1E2D 100%)
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D61E02, endColorstr=#AF1E2D)
   -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D61E02, endColorstr=#AF1E2D)
@@ -72,3 +98,37 @@ input[type=submit]
   color: #EFEFEF
   -webkit-font-smoothing: antialiased
   cursor: pointer
+  /*---------------CSS SIDEBAR---------------*/
+.sidebar
+  .block-menu,.block-views
+    border: 1px solid #D61E02
+    padding: 9px
+    text-align: center
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35)
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35)
+    margin-bottom: 20px !important
+    h2
+      margin: auto
+      font-size: 14px
+  .block-title
+    text-align: center
+.view-id-categorias
+#block-search-form
+  margin: auto
+  width: 96%
+  margin-bottom: 20px
+  .content
+    margin: auto
+  input[type=search]
+    font-size: 12px
+    width: 164px
+    padding: 6px
+    font-family: inherit
+    border: 1px solid #ccc
+    border-radius: 3px
+    &:focus
+      outline: 0px
+      border: 1px solid #666
+      -moz-box-shadow: 0 0 4px #99A2AA
+      -webkit-box-shadow: 0 0 4px #99A2AA
+      box-shadow: 0 0 4px #99A2AA
