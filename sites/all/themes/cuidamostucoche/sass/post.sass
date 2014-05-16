@@ -1,11 +1,14 @@
 /*---------------CSS POST---------------*/
 #main-content
   header
-    padding-top: 15px
     margin: 0px 15px 15px 0px
+    
+    padding-top: 15px
   #content
     margin: 0px 15px 15px 15px
-    padding-top: 15px  
+    padding-top: 15px
+    form
+      display: none
 .node-content,.field-content
   img
     margin-bottom: 15px
@@ -15,6 +18,7 @@
     width: 100%
     height: auto
 .node-title,.views-field-title,.pager
+  font-size: auto
   margin-top: 0px
   margin-bottom: 20px
   a:link
@@ -25,6 +29,7 @@
     color: #000
   a:visited
     color: #d61e02
+
 .submitted
   font-weight: inherit
   font-style: inherit
@@ -42,7 +47,7 @@
   color: #d61e02
   text-decoration: none
   font-weight: bold  
-.node-post,.views-row
+.views-row,.article
   margin-bottom: 20px
   &:after
     height: 50px
@@ -158,5 +163,33 @@ input[type=submit]
     text-decoration: none
     font-weight: bold
 .field-type-taxonomy-term-reference
+  float: left
+  margin: 0
+  padding: 0
+  font-size: 14px
+  h2
+    font-size: 11px
+    margin: 0
+    padding: 0
+  ul 
+    margin: 0
+    padding: 0  
   li 
     display: inline-block
+  a
+    margin: 0
+    padding: 0   
+    color: #d61e02
+    font-weight: bold
+  a:link
+    text-decoration: none !important
+  a:hover
+    color: #000
+  a:visited
+    color: #d61e02
+#comments
+  clear: both
+#main-content-header
+.node-header
+  font-size: 18px
+  padding-top: 0px

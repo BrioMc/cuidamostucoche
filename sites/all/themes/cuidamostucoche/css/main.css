@@ -69,13 +69,14 @@ footer {
       padding: 0 0 0 1.333em;
       line-height: 2.666em;
       padding-left: 12px;
-      vertical-align: baseline;
-      color: #d61e02; }
+      vertical-align: baseline; }
       .mainmenu ul.menu li a:link {
         text-decoration: none;
         color: black; }
       .mainmenu ul.menu li a:visited {
         color: black; }
+      .mainmenu ul.menu li a:hover {
+        color: #d61e02; }
 
 input[type=submit] {
   font-family: Arial, Helvetica, sans-serif;
@@ -104,11 +105,13 @@ input[type=submit] {
 
 /*---------------CSS POST--------------- */
 #main-content header {
-  padding-top: 15px;
-  margin: 0px 15px 15px 0px; }
+  margin: 0px 15px 15px 0px;
+  padding-top: 15px; }
 #main-content #content {
   margin: 0px 15px 15px 15px;
   padding-top: 15px; }
+  #main-content #content form {
+    display: none; }
 
 .node-content img, .field-content img {
   margin-bottom: 15px;
@@ -119,6 +122,7 @@ input[type=submit] {
   height: auto; }
 
 .node-title, .views-field-title, .pager {
+  font-size: auto;
   margin-top: 0px;
   margin-bottom: 20px; }
   .node-title a:link, .views-field-title a:link, .pager a:link {
@@ -149,9 +153,9 @@ input[type=submit] {
   text-decoration: none;
   font-weight: bold; }
 
-.node-post, .views-row {
+.views-row, .article {
   margin-bottom: 20px; }
-  .node-post:after, .views-row:after {
+  .views-row:after, .article:after {
     height: 50px;
     width: 100%;
     content: url(../images/sombra.png);
@@ -267,5 +271,35 @@ input[type=submit] {
   text-decoration: none;
   font-weight: bold; }
 
-.field-type-taxonomy-term-reference li {
-  display: inline-block; }
+.field-type-taxonomy-term-reference {
+  float: left;
+  margin: 0;
+  padding: 0;
+  font-size: 14px; }
+  .field-type-taxonomy-term-reference h2 {
+    font-size: 11px;
+    margin: 0;
+    padding: 0; }
+  .field-type-taxonomy-term-reference ul {
+    margin: 0;
+    padding: 0; }
+  .field-type-taxonomy-term-reference li {
+    display: inline-block; }
+  .field-type-taxonomy-term-reference a {
+    margin: 0;
+    padding: 0;
+    color: #d61e02;
+    font-weight: bold; }
+  .field-type-taxonomy-term-reference a:link {
+    text-decoration: none !important; }
+  .field-type-taxonomy-term-reference a:hover {
+    color: black; }
+  .field-type-taxonomy-term-reference a:visited {
+    color: #d61e02; }
+
+#comments {
+  clear: both; }
+
+.node-header {
+  font-size: 18px;
+  padding-top: 0px; }
