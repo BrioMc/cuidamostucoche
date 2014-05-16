@@ -6,21 +6,10 @@
   #content
     margin: 0px 15px 15px 15px
     padding-top: 15px  
-.categoria
-  margin-top: 15px
-  .views-row
-    margin-bottom: 0px
-    &:after
-      height: 50px
-      width: 100%
-      content: none
-      visibility: visible
-      margin-bottom: 0px  
 .node-content,.field-content
-  margin-top: 0px
-  padding-top: 15px  
   img
     margin-bottom: 15px
+    margin-top: 15px
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2)
     border-radius: 3px
     width: 100%
@@ -100,6 +89,19 @@ input[type=submit]
   cursor: pointer
   /*---------------CSS SIDEBAR---------------*/
 .sidebar
+  li 
+    text-decoration: none
+    list-style: none
+    margin: 0 auto
+    a
+    color: #d61e02
+    font-weight: bold
+    a:link
+      text-decoration: none !important
+    a:hover
+      color: #000
+    a:visited
+      color: #d61e02
   .block-menu,.block-views
     border: 1px solid #D61E02
     padding: 9px
@@ -107,9 +109,17 @@ input[type=submit]
     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35)
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35)
     margin-bottom: 20px !important
+    .field-content
+      padding-top: 0px
     h2
       margin: auto
-      font-size: 14px
+      font-size: 11px
+      line-height: 2.181818182
+      font-weight: bold
+      font-family: ubuntubold, sans-serif
+      text-transform: uppercase
+    a
+      font-size: 14px      
   .block-title
     text-align: center
 .view-id-categorias
@@ -132,3 +142,21 @@ input[type=submit]
       -moz-box-shadow: 0 0 4px #99A2AA
       -webkit-box-shadow: 0 0 4px #99A2AA
       box-shadow: 0 0 4px #99A2AA
+.block-after
+  margin-top: 15px
+  .views-row,.views-field-title
+    margin-bottom: 0px
+    &:after
+      height: 50px
+      width: 100%
+      content: none
+      visibility: visible
+      margin-bottom: 0px  
+.views-field-created
+  .field-content
+    color: #d61e02
+    text-decoration: none
+    font-weight: bold
+.field-type-taxonomy-term-reference
+  li 
+    display: inline-block
