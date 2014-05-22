@@ -12,21 +12,20 @@ body {
   font-size: 14px;
   font-family: "Times New Roman";
   text-rendering: optimizeLegibility;
-  color: #353535; }
+  color: #353535;
+  background-image: url(../images/bg-body-header.png), url(../images/bg-body-footer.png);
+  background-position: top left, bottom left;
+  background-repeat: repeat-x; }
 
 footer {
   position: relative;
   bottom: 15px; }
 
-#page-wrapper {
-  background-image: url(../images/bg-body-header.png), url(../images/bg-body-footer.png);
-  background-position: top left, bottom left;
-  background-repeat: repeat-x; }
-
 #page {
-  padding-top: 32px;
+  padding-top: 12px;
   padding-left: 49px;
   padding-right: 40px;
+  width: 960px;
   margin: auto; }
 
 #columns {
@@ -110,8 +109,6 @@ input[type=submit] {
 #main-content #content {
   margin: 0px 15px 15px 15px;
   padding-top: 15px; }
-  #main-content #content form {
-    display: none; }
 
 .node-content img, .field-content img {
   margin-bottom: 15px;
