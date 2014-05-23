@@ -199,38 +199,40 @@ input[type=submit] {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EA4856, endColorstr=#D61E02);
     -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EA4856, endColorstr=#D61E02); }
 
-.sidebar li {
-  text-decoration: none;
-  list-style: none;
-  margin: 0 auto;
-  color: #d61e02;
-  font-weight: bold; }
-  .sidebar li a:link {
-    text-decoration: none !important; }
-  .sidebar li a:hover {
-    color: black; }
-  .sidebar li a:visited {
-    color: #d61e02; }
-.sidebar .block-menu, .sidebar .block-views {
-  border: 1px solid #d61e02;
-  padding: 9px;
-  text-align: center;
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
-  margin-bottom: 20px !important; }
-  .sidebar .block-menu .field-content, .sidebar .block-views .field-content {
-    padding-top: 0px; }
-  .sidebar .block-menu h2, .sidebar .block-views h2 {
-    margin: auto;
-    font-size: 11px;
-    line-height: 2.18182;
-    font-weight: bold;
-    font-family: ubuntubold, sans-serif;
-    text-transform: uppercase; }
-  .sidebar .block-menu a, .sidebar .block-views a {
-    font-size: 14px; }
-.sidebar .block-title {
-  text-align: center; }
+.sidebar {
+  width: 280px; }
+  .sidebar li {
+    text-decoration: none;
+    list-style: none;
+    margin: 0 auto;
+    color: #d61e02;
+    font-weight: bold; }
+    .sidebar li a:link {
+      text-decoration: none !important; }
+    .sidebar li a:hover {
+      color: black; }
+    .sidebar li a:visited {
+      color: #d61e02; }
+  .sidebar .block-menu, .sidebar .block-views {
+    border: 1px solid #d61e02;
+    padding: 9px;
+    text-align: center;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+    margin-bottom: 20px !important; }
+    .sidebar .block-menu .field-content, .sidebar .block-views .field-content {
+      padding-top: 0px; }
+    .sidebar .block-menu h2, .sidebar .block-views h2 {
+      margin: auto;
+      font-size: 11px;
+      line-height: 2.18182;
+      font-weight: bold;
+      font-family: ubuntubold, sans-serif;
+      text-transform: uppercase; }
+    .sidebar .block-menu a, .sidebar .block-views a {
+      font-size: 14px; }
+  .sidebar .block-title {
+    text-align: center; }
 
 #block-search-form {
   margin: auto;
