@@ -52,7 +52,7 @@ footer {
   margin-top: 21px; }
 
 .mainmenu ul.menu {
-  margin: 69px 12px 0 0;
+  margin: 75px 12px 0 0;
   float: right; }
   .mainmenu ul.menu li {
     list-style: none;
@@ -68,7 +68,13 @@ footer {
       padding: 0 0 0 1.333em;
       line-height: 2.666em;
       padding-left: 12px;
-      vertical-align: baseline; }
+      vertical-align: baseline;
+      font-family: ubunturegular, sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: normal;
+      height: 37px;
+      line-height: 37.324px; }
       .mainmenu ul.menu li a:link {
         text-decoration: none;
         color: black; }
@@ -108,20 +114,28 @@ input[type=submit] {
   padding-top: 15px; }
 #main-content #content {
   margin: 0px 15px 15px 15px;
-  padding-top: 15px; }
+  padding-top: 12px; }
 
 .node-content img, .field-content img {
   margin-bottom: 15px;
-  margin-top: 15px;
+  margin-top: 10px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
   width: 100%;
   height: auto; }
 
+.username {
+  font-family: "Times New Roman" !important; }
+
 .node-title, .views-field-title, .pager {
   font-size: auto;
   margin-top: 0px;
-  margin-bottom: 20px; }
+  margin-bottom: 19px; }
+  .node-title a, .views-field-title a, .pager a {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    height: auto; }
   .node-title a:link, .views-field-title a:link, .pager a:link {
     color: #d61e02;
     text-decoration: none;
