@@ -13,6 +13,7 @@ body {
   font-family: "Times New Roman";
   text-rendering: optimizeLegibility;
   color: #353535;
+  padding-top: 0 !important;
   background-image: url(../images/bg-body-header.png), url(../images/bg-body-footer.png);
   background-position: top left, bottom left;
   background-repeat: repeat-x; }
@@ -26,7 +27,7 @@ footer {
   padding-left: 49px;
   padding-right: 40px;
   width: 960px;
-  margin: auto; }
+  margin: 20px auto; }
 
 #columns {
   margin-top: 45px;
@@ -52,25 +53,22 @@ footer {
   margin-top: 21px; }
 
 .mainmenu ul.menu {
-  margin: 75px 12px 0 0;
+  margin: 76px 12px 0 0;
   float: right; }
   .mainmenu ul.menu li {
     list-style: none;
-    letter-spacing: 1px;
     padding: 0 0 0 0;
     display: inline-block;
-    font-family: "ubunturegular", sans-serif;
-    font-weight: 400;
-    font-size: 19px;
     position: relative; }
     .mainmenu ul.menu li a {
       list-style: none outside none;
       padding: 0 0 0 1.333em;
+      letter-spacing: 1px;
       line-height: 2.666em;
       padding-left: 12px;
       vertical-align: baseline;
       font-family: ubunturegular, sans-serif;
-      font-size: 20px;
+      font-size: 18px;
       font-style: normal;
       font-weight: normal;
       height: 37px;
@@ -117,7 +115,7 @@ input[type=submit] {
   padding-top: 12px; }
 
 .node-content img, .field-content img {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   margin-top: 10px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
@@ -127,22 +125,37 @@ input[type=submit] {
 .username {
   font-family: "Times New Roman" !important; }
 
-.node-title, .views-field-title, .pager {
+.node-title, .views-field-title {
   font-size: auto;
   margin-top: 0px;
   margin-bottom: 19px; }
-  .node-title a, .views-field-title a, .pager a {
+  .node-title a, .views-field-title a {
     font-size: 22px;
     font-style: normal;
     font-weight: bold;
     height: auto; }
-  .node-title a:link, .views-field-title a:link, .pager a:link {
+  .node-title a:link, .views-field-title a:link {
     color: #d61e02;
     text-decoration: none;
     font-weight: bold; }
-  .node-title a:hover, .views-field-title a:hover, .pager a:hover {
+  .node-title a:hover, .views-field-title a:hover {
     color: black; }
-  .node-title a:visited, .views-field-title a:visited, .pager a:visited {
+  .node-title a:visited, .views-field-title a:visited {
+    color: #d61e02; }
+
+.pager {
+  font-size: auto; }
+  .pager a {
+    font-style: normal;
+    font-weight: bold;
+    height: auto; }
+  .pager a:link {
+    color: #d61e02;
+    text-decoration: none;
+    font-weight: bold; }
+  .pager a:hover {
+    color: black; }
+  .pager a:visited {
     color: #d61e02; }
 
 .submitted {
@@ -269,7 +282,7 @@ input[type=submit] {
       box-shadow: 0 0 4px #99a2aa; }
 
 .block-after {
-  margin-top: 15px; }
+  margin-top: 10 px; }
   .block-after .views-row, .block-after .views-field-title {
     margin-bottom: 0px; }
     .block-after .views-row:after, .block-after .views-field-title:after {
