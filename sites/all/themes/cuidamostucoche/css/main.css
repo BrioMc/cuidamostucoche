@@ -14,6 +14,7 @@ body {
   text-rendering: optimizeLegibility;
   color: #353535;
   padding-top: 0 !important;
+  margin: auto !important;
   background-image: url(../images/bg-body-header.png), url(../images/bg-body-footer.png);
   background-position: top left, bottom left;
   background-repeat: repeat-x; }
@@ -133,7 +134,8 @@ input[type=submit] {
     font-size: 22px;
     font-style: normal;
     font-weight: bold;
-    height: auto; }
+    height: auto;
+    color: #d61e02; }
   .node-title a:link, .views-field-title a:link {
     color: #d61e02;
     text-decoration: none;
@@ -148,7 +150,8 @@ input[type=submit] {
   .pager a {
     font-style: normal;
     font-weight: bold;
-    height: auto; }
+    height: auto;
+    color: #d61e02; }
   .pager a:link {
     color: #d61e02;
     text-decoration: none;
@@ -235,6 +238,7 @@ input[type=submit] {
     color: #d61e02;
     font-weight: bold; }
     .sidebar li a:link {
+      color: #d61e02;
       text-decoration: none !important; }
     .sidebar li a:hover {
       color: black; }
