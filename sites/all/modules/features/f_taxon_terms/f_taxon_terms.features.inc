@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * f_site.features.inc
+ * f_taxon_terms.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function f_site_ctools_plugin_api($module = NULL, $api = NULL) {
+function f_taxon_terms_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }

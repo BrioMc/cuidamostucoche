@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the f_vistas feature.
- */
-
-include_once 'f_vistas.features.inc';
