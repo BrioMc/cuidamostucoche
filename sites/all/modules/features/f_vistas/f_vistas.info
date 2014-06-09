@@ -1,0 +1,13 @@
+name = f_vistas
+core = 7.x
+package = Features
+dependencies[] = views
+dependencies[] = views_ui
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = categorias
+features[views_view][] = comentarios
+features[views_view][] = entradas_recientes
+features[views_view][] = posts_by_date
+features_exclude[dependencies][ctools] = ctools
+project path = sites/all/modules/features

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the f_themeCTC feature.
+ */
+
+include_once 'f_themectc.features.inc';
