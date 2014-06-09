@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Site_information feature.
- */
-
-include_once 'site_information.features.inc';

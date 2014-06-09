@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the f_view feature.
- */
-
-include_once 'f_view.features.inc';
