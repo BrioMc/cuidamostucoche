@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the f_theme_cuidamostucoche feature.
+ */
+
+include_once 'f_theme_cuidamostucoche.features.inc';
