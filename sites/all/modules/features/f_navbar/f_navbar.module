@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the f_navbar feature.
+ */
+
+include_once 'f_navbar.features.inc';

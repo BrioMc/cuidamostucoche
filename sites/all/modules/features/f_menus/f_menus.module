@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the f_menus feature.
+ */
+
+include_once 'f_menus.features.inc';

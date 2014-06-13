@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the F_contentformat_post feature.
+ */
+
+include_once 'f_contentformat_post.features.inc';

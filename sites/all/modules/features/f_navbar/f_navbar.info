@@ -1,0 +1,16 @@
+name = f_navbar
+core = 7.x
+package = Features
+dependencies[] = backbone
+dependencies[] = backbone_library
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = modernizr
+dependencies[] = navbar
+dependencies[] = strongarm
+dependencies[] = underscore
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[user_permission][] = access navbar
+features[variable][] = at_mobile_detect
+project path = sites/all/modules/features
